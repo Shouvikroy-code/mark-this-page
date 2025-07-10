@@ -21,7 +21,7 @@ def mark_page():
     }
 
     payload = {
-        "toBottom": True,
+        "toTop": True,
         "rows": [{"cells": row_data}]
     }
 
