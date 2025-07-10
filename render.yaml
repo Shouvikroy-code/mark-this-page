@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mark-this-page
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn main:app
+    plan: free
